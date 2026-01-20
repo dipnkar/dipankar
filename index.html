@@ -1,0 +1,843 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="keyword" content="resume, portfolio, personal portfolio, cv, template, responsive, html5, css3, creative, clean, UI/UX Designer, Graphics Designer">
+    <meta name="description" content="Dipankar Raulo - Creative Lead and UI/UX Designer Portfolio">
+    <meta name="author" content="Dipankar Raulo">
+    <title>Dipankar Raulo - UI/UX Designer Portfolio</title>
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="../css2?family=Sora:wght@100..800&display=swap">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontAwesome5Pro.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/glightbox.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preShape1"></div>
+        <div class="preShape2"></div>
+        <h4 class="content">loading</h4>
+    </div>
+    
+    <div class="left-sidebar">
+        <a href="index.html#contact" class="message" aria-label="Message Me">
+            <svg width="17" height="13" viewBox="0 0 17 13" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.52734 0.820312C0.699219 0.820312 0.0273438 1.49219 0.0273438 2.32031C0.0273438 2.79219 0.249219 3.23594 0.627344 3.52031L7.42734 8.62031C7.78359 8.88594 8.27109 8.88594 8.62734 8.62031L15.4273 3.52031C15.8055 3.23594 16.0273 2.79219 16.0273 2.32031C16.0273 1.49219 15.3555 0.820312 14.5273 0.820312H1.52734ZM0.0273438 4.32031V10.8203C0.0273438 11.9234 0.924219 12.8203 2.02734 12.8203H14.0273C15.1305 12.8203 16.0273 11.9234 16.0273 10.8203V4.32031L9.22734 9.42031C8.51484 9.95469 7.53984 9.95469 6.82734 9.42031L0.0273438 4.32031Z" fill="currentColor"></path>
+            </svg>
+        </a>
+        <div class="social-icon">
+            <a href="https://linkedin.com/in/dipankarraulo" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Follow Me On LinkedIn" aria-label="linkedin" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.5 1.5C3.5 2.328 2.828 3 2 3C1.172 3 0.5 2.328 0.5 1.5C0.5 0.672 1.172 0 2 0C2.828 0 3.5 0.672 3.5 1.5ZM3.5 4H0.5V14H3.5V4ZM8 4H5V14H8V8.5C8 5.5 12 5.5 12 8.5V14H15V7.5C15 2.5 9 2.5 8 5V4Z" fill="currentColor"></path>
+                </svg>
+            </a>
+            <a href="https://deepixel-chi.vercel.app" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Visit My Portfolio" aria-label="portfolio" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.02364 0.148438C3.4373 0.148438 0.519531 3.06851 0.519531 6.65769C0.519531 10.2469 3.4373 13.1669 7.02364 13.1669C10.61 13.1669 13.5278 10.2469 13.5278 6.65769C13.5278 3.06851 10.61 0.148438 7.02364 0.148438ZM7.02364 1.12483C8.37074 1.12483 9.60237 1.60532 10.5603 2.40316C9.66508 3.19187 8.64146 3.8337 7.53749 4.32606C6.96235 3.27925 6.338 2.26419 5.63707 1.30663C6.08073 1.19223 6.5437 1.12483 7.02364 1.12483ZM4.67733 1.65116C5.39681 2.60331 6.03164 3.61926 6.61586 4.66805C5.41403 5.08591 4.14158 5.35584 2.79597 5.35584C2.41625 5.35584 2.04193 5.3305 1.67045 5.29418C2.07951 3.67491 3.19628 2.3458 4.67733 1.65116ZM11.2519 3.09286C12.0517 4.04257 12.537 5.26529 12.5496 6.60493C11.8473 6.42863 11.1134 6.33223 10.357 6.33223C9.76249 6.33223 9.18813 6.40903 8.62553 6.51911C8.42958 6.06482 8.21496 5.62331 7.99418 5.18294C9.1842 4.64435 10.2889 3.94862 11.2519 3.09286ZM7.08144 5.54146C7.28747 5.94871 7.49523 6.35301 7.67913 6.77275C5.70761 7.38987 4.01525 8.64261 2.87981 10.3153C2.02047 9.34054 1.49515 8.06347 1.49515 6.65769C1.49515 6.52282 1.50605 6.39091 1.51547 6.25849C1.93671 6.30171 2.3621 6.33223 2.79597 6.33223C4.30602 6.33223 5.73749 6.02735 7.08144 5.54146ZM10.357 7.30862C11.0883 7.30862 11.7939 7.41256 12.467 7.59594C12.2118 9.09519 11.3606 10.3867 10.1601 11.2148C9.87092 9.93344 9.46613 8.69805 9.00282 7.49169C9.44972 7.41469 9.88774 7.30862 10.357 7.30862ZM8.02911 7.67476C8.53997 8.97682 8.9769 10.3163 9.26959 11.7125C8.58325 12.0176 7.82457 12.1906 7.02364 12.1906C5.72629 12.1906 4.53813 11.7423 3.59628 10.9968C4.62001 9.41676 6.18811 8.2333 8.02911 7.67476Z" fill="currentColor"></path>
+                </svg>
+            </a>
+            <a href="mailto:raulodipankar@gmail.com" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Email Me" aria-label="email">
+                <svg width="18" height="16" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.52734 0.820312C0.699219 0.820312 0.0273438 1.49219 0.0273438 2.32031C0.0273438 2.79219 0.249219 3.23594 0.627344 3.52031L7.42734 8.62031C7.78359 8.88594 8.27109 8.88594 8.62734 8.62031L15.4273 3.52031C15.8055 3.23594 16.0273 2.79219 16.0273 2.32031C16.0273 1.49219 15.3555 0.820312 14.5273 0.820312H1.52734ZM0.0273438 4.32031V10.8203C0.0273438 11.9234 0.924219 12.8203 2.02734 12.8203H14.0273C15.1305 12.8203 16.0273 11.9234 16.0273 10.8203V4.32031L9.22734 9.42031C8.51484 9.95469 7.53984 9.95469 6.82734 9.42031L0.0273438 4.32031Z" fill="currentColor"></path>
+                </svg>
+            </a>
+            <a href="tel:+917789995028" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Call Me" aria-label="phone">
+                <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.5 1C2.67157 1 2 1.67157 2 2.5V11.5C2 12.3284 2.67157 13 3.5 13H10.5C11.3284 13 12 12.3284 12 11.5V2.5C12 1.67157 11.3284 1 10.5 1H3.5ZM7 11C7.55228 11 8 10.5523 8 10C8 9.44772 7.55228 9 7 9C6.44772 9 6 9.44772 6 10C6 10.5523 6.44772 11 7 11Z" fill="currentColor" stroke="currentColor" stroke-width="0.5"></path>
+                </svg>     
+            </a>
+        </div>
+    </div>
+    
+    <header class="header-area">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/img/logo/logo.svg" class="light" alt="Dipankar Raulo Portfolio">
+                <img src="assets/img/logo/logo-dark.svg" class="dark" alt="Dipankar Raulo Portfolio">
+            </a>
+        </div>
+        <button class="btn_theme_switch btn-primary-gradient ms-auto me-3" aria-label="Dark - Light Switch">
+            <svg class="sun" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 17.5C14.5899 17.5 17.5 14.5899 17.5 11C17.5 7.41015 14.5899 4.5 11 4.5C7.41015 4.5 4.5 7.41015 4.5 11C4.5 14.5899 7.41015 17.5 11 17.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M18.14 18.14L18.01 18.01M18.01 3.99L18.14 3.86L18.01 3.99ZM3.86 18.14L3.99 18.01L3.86 18.14ZM11 1.08V1V1.08ZM11 21V20.92V21ZM1.08 11H1H1.08ZM21 11H20.92H21ZM3.99 3.99L3.86 3.86L3.99 3.99Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <svg class="moon" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.03009 11.42C1.39009 16.57 5.76009 20.76 10.9901 20.99C14.6801 21.15 17.9801 19.43 19.9601 16.72C20.7801 15.61 20.3401 14.87 18.9701 15.12C18.3001 15.24 17.6101 15.29 16.8901 15.26C12.0001 15.06 8.00009 10.97 7.98009 6.13996C7.97009 4.83996 8.24009 3.60996 8.73009 2.48996C9.27009 1.24996 8.62009 0.659961 7.37009 1.18996C3.41009 2.85996 0.70009 6.84996 1.03009 11.42Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+        </button>
+        <button class="navbar-toggler" aria-label="sidebar open button">
+            <span></span>
+        </button>
+    </header>
+    
+    <div class="sidebar-menu">
+        <div class="sidebar-header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logo/logo.svg" class="light" alt="Dipankar Raulo">
+                    <img src="assets/img/logo/logo-dark.svg" class="dark" alt="Dipankar Raulo">
+                </a>
+            </div>
+            <div class="color-mode">
+                <button class="btn_theme_switch btn-primary-gradient" aria-label="Dark - Light Switch">
+                    <svg class="sun" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 17.5C14.5899 17.5 17.5 14.5899 17.5 11C17.5 7.41015 14.5899 4.5 11 4.5C7.41015 4.5 4.5 7.41015 4.5 11C4.5 14.5899 7.41015 17.5 11 17.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M18.14 18.14L18.01 18.01M18.01 3.99L18.14 3.86L18.01 3.99ZM3.86 18.14L3.99 18.01L3.86 18.14ZM11 1.08V1V1.08ZM11 21V20.92V21ZM1.08 11H1H1.08ZM21 11H20.92H21ZM3.99 3.99L3.86 3.86L3.99 3.99Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <svg class="moon" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.03009 11.42C1.39009 16.57 5.76009 20.76 10.9901 20.99C14.6801 21.15 17.9801 19.43 19.9601 16.72C20.7801 15.61 20.3401 14.87 18.9701 15.12C18.3001 15.24 17.6101 15.29 16.8901 15.26C12.0001 15.06 8.00009 10.97 7.98009 6.13996C7.97009 4.83996 8.24009 3.60996 8.73009 2.48996C9.27009 1.24996 8.62009 0.659961 7.37009 1.18996C3.41009 2.85996 0.70009 6.84996 1.03009 11.42Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul class="nav-menu" id="nav">
+            <li class="menu-item">
+                <a href="#home" class="nav-link active">
+                    <i class="fal fa-home-lg-alt"></i>
+                    HOME
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#about" class="nav-link">
+                    <i class="fal fa-user"></i>
+                    ABOUT 
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#protfolio" class="nav-link">
+                    <i class="fal fa-briefcase"></i>
+                    PORTFOLIO
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#resume" class="nav-link">
+                    <i class="fal fa-id-card"></i>
+                    RESUME
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#contact" class="nav-link">
+                    <i class="fal fa-mailbox"></i>
+                    CONTACT
+                </a>
+            </li>
+        </ul>
+        <div class="copyright-content text-center">
+            <p>2025 <a href="index.html">@Dipankar Raulo</a></p>
+            <p>All Rights Reserved</p>
+        </div>
+    </div>
+    <div class="sidebar-menu-overlay"></div>
+   
+    <div class="mobile-menu">
+        <div class="menu-header d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logo/logo.svg" class="light" alt="Dipankar Raulo">
+                    <img src="assets/img/logo/logo-dark.svg" class="dark" alt="Dipankar Raulo">
+                </a>
+            </div>
+            <button class="close-btn" type="button" aria-label="menu close button">
+                <i class="fal fa-times"></i>
+            </button>
+        </div>
+        <ul class="nav-menu" id="mobile_nav">
+            <li class="menu-item">
+                <a href="#home" class="nav-link active">
+                    <i class="fal fa-home-lg-alt"></i>
+                    HOME
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#about" class="nav-link">
+                    <i class="fal fa-user"></i>
+                    ABOUT 
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#protfolio" class="nav-link">
+                    <i class="fal fa-briefcase"></i>
+                    PORTFOLIO
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#resume" class="nav-link">
+                    <i class="fal fa-id-card"></i>
+                    RESUME
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#contact" class="nav-link">
+                    <i class="fal fa-mailbox"></i>
+                    CONTACT
+                </a>
+            </li>
+        </ul>
+        <div class="social-icon">
+            <a href="https://linkedin.com/in/dipankarraulo" target="_blank" aria-label="linkedin">
+                <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.5 1.5C3.5 2.328 2.828 3 2 3C1.172 3 0.5 2.328 0.5 1.5C0.5 0.672 1.172 0 2 0C2.828 0 3.5 0.672 3.5 1.5ZM3.5 4H0.5V14H3.5V4ZM8 4H5V14H8V8.5C8 5.5 12 5.5 12 8.5V14H15V7.5C15 2.5 9 2.5 8 5V4Z" fill="currentColor"></path>
+                </svg>
+            </a>
+            <a href="https://deepixel-chi.vercel.app" target="_blank" aria-label="portfolio">
+                <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.02364 0.148438C3.4373 0.148438 0.519531 3.06851 0.519531 6.65769C0.519531 10.2469 3.4373 13.1669 7.02364 13.1669C10.61 13.1669 13.5278 10.2469 13.5278 6.65769C13.5278 3.06851 10.61 0.148438 7.02364 0.148438Z" fill="currentColor"></path>
+                </svg>
+            </a>
+            <a href="mailto:raulodipankar@gmail.com" aria-label="email">
+                <svg viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.52734 0.820312C0.699219 0.820312 0.0273438 1.49219 0.0273438 2.32031C0.0273438 2.79219 0.249219 3.23594 0.627344 3.52031L7.42734 8.62031C7.78359 8.88594 8.27109 8.88594 8.62734 8.62031L15.4273 3.52031C15.8055 3.23594 16.0273 2.79219 16.0273 2.32031C16.0273 1.49219 15.3555 0.820312 14.5273 0.820312H1.52734Z" fill="currentColor"></path>
+                </svg>
+            </a>
+            <a href="tel:+917789995028" aria-label="phone">
+                <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.5 1C2.67157 1 2 1.67157 2 2.5V11.5C2 12.3284 2.67157 13 3.5 13H10.5C11.3284 13 12 12.3284 12 11.5V2.5C12 1.67157 11.3284 1 10.5 1H3.5Z" fill="currentColor" stroke="#5C5D68" stroke-width="0.5"></path>
+                </svg>     
+            </a>
+        </div>
+        <div class="copyright-content text-center">
+            <p>2025 <a href="index.html">@Dipankar Raulo</a></p>
+            <p>All Rights Reserved</p>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero-area" id="home">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-7">
+                        <div class="hero-content text-center text-md-start">
+                            <h5 class="subtitle wow animate__animated animate__fadeInUp">
+                                I am Dipankar Raulo
+                            </h5>
+                            <h1 class="hero-title wow animate__animated animate__fadeInUp">
+                                Creative Lead & UI/UX Designer
+                            </h1>
+                            <div class="sub-content wow animate__animated animate__fadeInUp">
+                                <div class="icon">
+                                    <svg width="78" height="58" viewBox="0 0 78 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9389 13.3601L28.1889 9.35987C30.3385 10.3539 32.2468 11.7075 33.9389 13.3601ZM48.412 18.4243C46.0438 17.152 43.7408 15.8109 41.261 14.8171C44.0058 15.315 46.2586 16.8012 48.412 18.4243ZM40.0398 24.5893C39.7839 25.5982 39.173 25.2993 38.6039 25.055C36.6798 24.2293 36.0669 22.4022 35.4977 20.6495C35.0831 19.3715 34.8112 17.9908 35.1629 16.6121C35.2967 16.0859 35.5472 15.7069 36.121 16.2616C37.688 17.7767 39.0097 19.4621 39.7287 21.5545C40.0712 22.5514 40.2174 23.5835 40.0398 24.5893Z" fill="#BFA9EA"></path>
+                                    </svg>
+                                </div>
+                                <p>Transforming complex ideas into intuitive user experiences with 3+ years of expertise in UI/UX design, motion graphics, and frontend development.</p>
+                            </div>
+                            <div class="button-groups wow animate__animated animate__fadeInUp">
+                                <a href="#contact" class="btn-primary-gradient">
+                                    Get In Touch &nbsp;
+                                    <i class="fas fa-paper-plane"></i>
+                                </a>
+                                <a href="https://deepixel-chi.vercel.app" target="_blank" class="btn-primary-outlined">
+                                    View Portfolio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-5">
+                        <div class="hero-img text-center wow animate__animated animate__fadeInUp">
+                            <img id="moving" class="lazyload" src="assets/img/hero/hero.png" alt="Dipankar Raulo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="funfact-area wow animate__animated animate__fadeInUp">
+                <div class="container">
+                    <div class="column_wrapper">
+                        <div class="row g-4">
+                            <div class="col-6 col-md-3 col-lg-3">
+                                <div class="funfact-box">
+                                    <h2>
+                                        <span class="counter">25</span>+
+                                    </h2>
+                                    <p>Completed Projects</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-3">
+                                <div class="funfact-box">
+                                    <h2>
+                                        <span class="counter">3</span>+
+                                    </h2>
+                                    <p>Years of Experience</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-3">
+                                <div class="funfact-box">
+                                    <h2>
+                                        <span class="counter">5</span>+
+                                    </h2>
+                                    <p>Key Projects</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-3">
+                                <div class="funfact-box">
+                                    <h2>
+                                        <span class="counter">2</span>
+                                    </h2>
+                                    <p>Certifications</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shape">
+                            <img src="assets/img/funfact/shape.png" height="80" width="100" alt="funfact shape image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="about_me_area section-space" id="about">
+            <div class="container">
+                <div class="watermark-title text-center wow animate__animated animate__fadeInUp" data-watermark="About Me">
+                    <h6 class="title">ABOUT ME</h6>
+                </div>
+                <div class="about-content-wrapper wow animate__animated animate__fadeInUp">
+                    <div class="row g-4 align-items-end">
+                        <div class="col-lg-6 col-xl-7">
+                            <div class="left-info">
+                                <h2>Dipankar Raulo</h2>
+                                <p class="designation">
+                                    Creative Lead / UI/UX Designer / Berhampur, Odisha, India
+                                </p>
+                                <p class="content">
+                                    Creative Lead and UI/UX Designer with 3+ years of experience delivering high-impact digital solutions across web, mobile, and branding. Skilled in transforming complex ideas into intuitive user experiences supported by visually compelling UI, motion graphics, and responsive design. Currently leading creative direction at Multify Solutions Pvt. Ltd., with proven expertise in building scalable design systems and enhancing brand identity.
+                                </p>
+                                <div class="button-groups wow animate__animated animate__fadeInUp">
+                                    <a href="#contact" class="btn-primary-gradient">
+                                        Download CV &nbsp;
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                    <a href="#contact" class="btn-primary-outlined">
+                                        Hire Me!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-5">
+                            <div class="right-info">
+                                <table class="w-100">
+                                    <tbody>
+                                        <tr>
+                                            <td class="name">Name</td>
+                                            <td class="dot">:</td>
+                                            <td class="value">Dipankar Raulo</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">Location</td>
+                                            <td class="dot">:</td>
+                                            <td class="value">Berhampur, Odisha, India</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">Phone</td>
+                                            <td class="dot">:</td>
+                                            <td class="value">
+                                                <a href="tel:+917789995028">+91 7789995028</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">Email</td>
+                                            <td class="dot">:</td>
+                                            <td class="value">
+                                                <a href="mailto:raulodipankar@gmail.com">raulodipankar@gmail.com</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">Experience</td>
+                                            <td class="dot">:</td>
+                                            <td class="value">3+ Years</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">LinkedIn</td>
+                                            <td class="dot">:</td>
+                                            <td class="value">
+                                                <a href="https://linkedin.com/in/dipankarraulo" target="_blank">dipankarraulo</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="name">Language</td>
+                                            <td class="dot">:</td>
+                                            <td class="value">English, Hindi, Odia</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>                     
+                </div>
+            </div>
+        </div>
+
+        <div class="service-area section-space">
+            <div class="container">
+                <h2 class="section-title wow animate__animated animate__fadeInUp">
+                    <svg width="26" height="33" viewBox="0 0 26 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.57695 23.0121L9.57639 23.0121C4.66099 23.0051 0.677265 19.0214 0.670312 14.106V14.1054V1.59448V1.19448H1.07031H3.06914H3.46914V1.59448V14.1051C3.47558 17.4771 6.20558 20.207 9.57769 20.2132H19.9601L13.5906 13.8437L13.3078 13.5609L13.5906 13.278L15.005 11.8636L15.288 11.5807L15.5708 11.8637L25.0337 21.3332L25.3164 21.6161L25.0336 21.8988L15.5707 31.3617L15.2879 31.6445L15.005 31.3617L13.5906 29.9472L13.3078 29.6644L13.5906 29.3816L19.9601 23.0121L9.57695 23.0121Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.8"></path>
+                    </svg>  
+                    My Services
+                </h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="service_card wow animate__animated animate__fadeInUp">
+                            <div class="card-header">
+                                <img src="assets/img/service/design.svg" height="48" width="48" alt="UI/UX Design">
+                                <a href="#!" class="primary_btn">SPECIALTY</a>
+                            </div>
+                            <h4 class="title">
+                                <a href="#">UI/UX Design</a>
+                            </h4>
+                            <p class="content">
+                                Creating intuitive and engaging user interfaces with comprehensive user research, wireframing, prototyping, and high-fidelity design using Figma and Adobe XD.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service_card wow animate__animated animate__fadeInUp">
+                            <div class="card-header">
+                                <img src="assets/img/service/branding-design.svg" height="48" width="48" alt="Graphic Design">
+                                <a href="#!" class="primary_btn" aria-label="primary button">CREATIVE</a>
+                            </div>
+                            <h4 class="title">
+                                <a href="#">Graphic & Motion Design</a>
+                            </h4>
+                            <p class="content">
+                                High-quality graphics, social media content, and motion videos using Photoshop, Canva, After Effects, and Adobe Premiere Pro for impactful visual communication.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service_card wow animate__animated animate__fadeInUp">
+                            <div class="card-header">
+                                <img src="assets/img/service/coding.svg" height="48" width="48" alt="Frontend Development">
+                                <a href="#!" class="primary_btn" aria-label="primary button">TECHNICAL</a>
+                            </div>
+                            <h4 class="title">
+                                <a href="#">Frontend Development</a>
+                            </h4>
+                            <p class="content">
+                                Building responsive and performant web applications using HTML5, CSS3, JavaScript, React.js, Bootstrap, and Tailwind CSS with modern development practices.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service_card wow animate__animated animate__fadeInUp">
+                            <div class="card-header">
+                                <img src="assets/img/service/seo.svg" height="48" width="48" alt="Digital Marketing">
+                                <a href="#!" class="primary_btn" aria-label="primary button">MARKETING</a>
+                            </div>
+                            <h4 class="title">
+                                <a href="#">Digital Marketing</a>
+                            </h4>
+                            <p class="content">
+                                Strategic digital campaigns execution including Meta Ads, LinkedIn Ads, Google Ads with analytics-driven optimization for enhanced brand visibility and ROI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Protfolio-area section-space" id="protfolio">
+            <div class="container">
+                <div class="watermark-title text-center wow animate__animated animate__fadeInUp" data-watermark="Portfolio">
+                    <h6 class="title">PORTFOLIO</h6>
+                </div>
+                <div class="protfolio-menu-wrapper text-center wow animate__animated animate__fadeInUp">
+                    <div class="protfolio-menu">
+                        <button data-filter="*" class="active" aria-label="Filter All Items">Show all</button>
+                        <button data-filter=".design" aria-label="Filter Design">Design</button>
+                        <button data-filter=".development" aria-label="Filter Development">Development</button>
+                        <button data-filter=".uiux" aria-label="Filter UI/UX">UI/UX</button>
+                        <button data-filter=".recent" aria-label="Filter Recent">Recent</button>
+                    </div>
+                </div>
+                <div class="row protfolio-container wow animate__animated animate__fadeInUp g-4">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 grid-item uiux recent">
+                        <div class="single-protfolio">
+                            <img src="assets/img/protfolio/1.webp" class="lazyload" height="290" width="400" alt="Loan User Journey">
+                            <div class="details">
+                                <a href="#" class="details-link" aria-label="Loan User Journey - Figma Design">
+                                    Loan User Journey - Figma Design
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 grid-item design development recent">
+                        <div class="single-protfolio">
+                            <img src="assets/img/protfolio/2.webp" class="lazyload" height="600" width="400" alt="3D Virtual Assistant">
+                            <div class="details">
+                                <a href="#" class="details-link" aria-label="3D Virtual Assistant Interface">
+                                    3D Virtual Assistant Interface
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 grid-item development recent">
+                        <div class="single-protfolio">
+                            <img src="assets/img/protfolio/3.webp" class="lazyload" height="290" width="400" alt="Multify Solutions Website">
+                            <div class="details">
+                                <a href="#" class="details-link" aria-label="Multify Solutions Corporate Website">
+                                    Multify Solutions - Corporate Website
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 grid-item design development">
+                        <div class="single-protfolio">
+                            <img src="assets/img/protfolio/4.webp" class="lazyload" height="290" width="400" alt="Contact Tree">
+                            <div class="details">
+                                <a href="#" class="details-link" aria-label="Contact Tree - Link Management Tool">
+                                    Contact Tree - Link Management Tool
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 grid-item development recent">
+                        <div class="single-protfolio">
+                            <img src="assets/img/protfolio/5.webp" class="lazyload" height="290" width="400" alt="AI Chat Assistant">
+                            <div class="details">
+                                <a href="#" class="details-link" aria-label="AI Chat Assistant with Gemini API">
+                                    AI Chat Assistant - Gemini API
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 grid-item design uiux">
+                        <div class="single-protfolio">
+                            <img src="assets/img/protfolio/6.webp" class="lazyload" height="290" width="400" alt="Dashboard Design">
+                            <div class="details">
+                                <a href="#" class="details-link" aria-label="Customer Portal Dashboard">
+                                    Customer Portal Dashboard
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-area section-space" id="resume">
+            <div class="container">
+                <div class="watermark-title text-center wow animate__animated animate__fadeInUp" data-watermark="Resume">
+                    <h6 class="title">RESUME</h6>
+                </div>
+                <div class="tab-button text-center wow animate__animated animate__fadeInUp">
+                    <ul class="nav nav-pills text-center" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#work_experience" type="button">
+                                Work Experience
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#education_qualification" type="button">
+                                Education
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content wow animate__animated animate__fadeInUp">
+                    <div class="tab-pane fade show active" id="work_experience" role="tabpanel" tabindex="0">
+                        <div class="row g-4 gx-xxl-5">
+                            <div class="col-md-6">
+                                <div class="resume-wrapper">
+                                    <div class="resume-content">
+                                        <span class="resume-meta">April 2025 - Present</span>
+                                        <h3 class="resume-title">Creative Lead</h3>
+                                        <a href="#" class="institute-name">Multify Solutions Pvt. Ltd.</a>
+                                        <p style="margin-top: 10px; font-size: 14px; color: #666;">Leading creative direction for UI/UX design, web design, and brand identity. Managing design teams and creating responsive websites, dashboards, and mobile interfaces with focus on usability and aesthetics.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="resume-wrapper">
+                                    <div class="resume-content">
+                                        <span class="resume-meta">Oct 2022 - Mar 2025</span>
+                                        <h3 class="resume-title">UI/UX Designer</h3>
+                                        <a href="#" class="institute-name">Shri Ram Finance Corp.</a>
+                                        <p style="margin-top: 10px; font-size: 14px; color: #666;">Designed digital loan application flows, developed UI/UX for customer portals and dashboards, executed digital marketing campaigns, and created graphics and motion videos for marketing initiatives.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="education_qualification" role="tabpanel" tabindex="0">
+                        <div class="row g-4 g-xl-5">
+                            <div class="col-md-6">
+                                <div class="resume-wrapper">
+                                    <div class="resume-content">
+                                        <span class="resume-meta">Pursuing</span>
+                                        <h3 class="resume-title">B.Tech in Computer Science</h3>
+                                        <a href="#" class="institute-name">BPUT Odisha | Gayatri Institute of Technology</a>
+                                        <p style="margin-top: 10px; font-size: 14px; color: #666;">Bachelor of Technology in Computer Science Engineering, focusing on software development, algorithms, and modern web technologies.</p>
+                                    </div>
+                                    <div class="resume-content">
+                                        <span class="resume-meta">Google - Coursera</span>
+                                        <h3 class="resume-title">Google UX Design Certificate</h3>
+                                        <a href="#" class="institute-name">Google</a>
+                                        <p style="margin-top: 10px; font-size: 14px; color: #666;">Comprehensive certification in UX design principles, user research, wireframing, prototyping, and usability testing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="resume-wrapper">
+                                    <div class="resume-content">
+                                        <span class="resume-meta">2019 - 2021 | 77.4%</span>
+                                        <h3 class="resume-title">Diploma in Computer Science</h3>
+                                        <a href="#" class="institute-name">SCTEVT Odisha | Holy Institute of Technology</a>
+                                        <p style="margin-top: 10px; font-size: 14px; color: #666;">Diploma in Computer Science Engineering with strong foundation in programming, web development, and computer fundamentals.</p>
+                                    </div>
+                                    <div class="resume-content">
+                                        <span class="resume-meta">IBM - Coursera</span>
+                                        <h3 class="resume-title">Frontend Development - React</h3>
+                                        <a href="#" class="institute-name">IBM</a>
+                                        <p style="margin-top: 10px; font-size: 14px; color: #666;">Professional certification in developing modern frontend applications using React.js and related technologies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skills-area section-space">
+            <div class="container">
+                <h2 class="section-title wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
+                    <svg width="26" height="33" viewBox="0 0 26 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.57695 23.0121L9.57639 23.0121C4.66099 23.0051 0.677265 19.0214 0.670312 14.106V14.1054V1.59448V1.19448H1.07031H3.06914H3.46914V1.59448V14.1051C3.47558 17.4771 6.20558 20.207 9.57769 20.2132H19.9601L13.5906 13.8437L13.3078 13.5609L13.5906 13.278L15.005 11.8636L15.288 11.5807L15.5708 11.8637L25.0337 21.3332L25.3164 21.6161L25.0336 21.8988L15.5707 31.3617L15.2879 31.6445L15.005 31.3617L13.5906 29.9472L13.3078 29.6644L13.5906 29.3816L19.9601 23.0121L9.57695 23.0121Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.8"></path>
+                    </svg>  
+                    Skills
+                </h2>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="skill-progressbar">
+                            <h2 class="title">Design Skills</h2> 
+                            <ul>
+                                <li class="skill-progress"> 
+                                    <div class="progress-icon">
+                                        <img src="assets/img/skills/figma.svg" height="30" width="30" alt="Figma">
+                                    </div>
+                                    <div class="skill-bar" data-percentage="95%">
+                                        <h4 class="progress-title-holder">
+                                            <span class="progress-title">Figma</span>
+                                            <span class="progress-mark-percent"></span>
+                                        </h4>
+                                        <div class="progress-outter">
+                                            <div class="progress-content"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="skill-progress"> 
+                                    <div class="progress-icon">
+                                        <img src="assets/img/skills/photoshop.svg" height="30" width="30" alt="Photoshop">
+                                    </div>
+                                    <div class="skill-bar" data-percentage="90%">
+                                        <h4 class="progress-title-holder">
+                                            <span class="progress-title">Photoshop</span>
+                                            <span class="progress-mark-percent"></span>
+                                        </h4>
+                                        <div class="progress-outter">
+                                            <div class="progress-content"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="skill-progress"> 
+                                    <div class="progress-icon">
+                                        <img src="assets/img/skills/xd.svg" height="30" width="30" alt="Adobe XD">
+                                    </div>
+                                    <div class="skill-bar" data-percentage="85%">
+                                        <h4 class="progress-title-holder">
+                                            <span class="progress-title">Adobe XD</span>
+                                            <span class="progress-mark-percent"></span>
+                                        </h4>
+                                        <div class="progress-outter">
+                                            <div class="progress-content"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="skill-progress"> 
+                                    <div class="progress-icon">
+                                        <img src="assets/img/skills/canvas.svg" height="30" width="30" alt="After Effects">
+                                    </div>
+                                    <div class="skill-bar" data-percentage="80%">
+                                        <h4 class="progress-title-holder">
+                                            <span class="progress-title">After Effects</span>
+                                            <span class="progress-mark-percent"></span>
+                                        </h4>
+                                        <div class="progress-outter">
+                                            <div class="progress-content"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="coding-skills wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                            <h2 class="title">Coding Skills</h2>
+                            <div class="wrapper">
+                                <div class="card figma">
+                                    <div class="icon">
+                                        <img src="assets/img/skills/circle-progressbar/html5.svg" alt="HTML5">
+                                    </div>
+                                    <div class="circle">
+                                        <div class="bar" data-value="0.9" data-thickness="2" data-fill='{"color": "#612BCC"}'></div>
+                                        <div class="box"></div>
+                                    </div>
+                                    <div class="text">HTML5</div>
+                                </div>
+                                <div class="card webflow">
+                                    <div class="icon">
+                                        <img src="assets/img/skills/circle-progressbar/css.svg" alt="CSS3">
+                                    </div>
+                                    <div class="circle">
+                                        <div class="bar" data-value="0.85" data-thickness="2" data-fill='{"color": "#612BCC"}'></div>
+                                        <div class="box"></div>
+                                    </div>
+                                    <div class="text">CSS3</div>
+                                </div>
+                                <div class="card tailwind">
+                                    <div class="icon">
+                                        <img src="assets/img/skills/circle-progressbar/javascript.svg" alt="JavaScript">
+                                    </div>
+                                    <div class="circle">
+                                        <div class="bar" data-value="0.8" data-thickness="2" data-fill='{"color": "#612BCC"}'></div>
+                                        <div class="box"></div>
+                                    </div>
+                                    <div class="text">JavaScript</div>
+                                </div>
+                                <div class="card html5">
+                                    <div class="icon">
+                                        <img src="assets/img/skills/circle-progressbar/wordpress.svg" alt="React.js">
+                                    </div>
+                                    <div class="circle">
+                                        <div class="bar" data-value="0.75" data-thickness="2" data-fill='{"color": "#612BCC"}'></div>
+                                        <div class="box"></div>
+                                    </div>
+                                    <div class="text">React.js</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-area" id="contact">
+            <div class="container">
+                <div class="watermark-title text-center wow animate__animated animate__fadeInUp" data-watermark="CONTACT">
+                    <h6 class="title">CONTACT</h6>
+                </div>
+                <h2 class="section-title mb-4 wow animate__animated animate__fadeInUp">
+                    <svg width="26" height="33" viewBox="0 0 26 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.57695 23.0121L9.57639 23.0121C4.66099 23.0051 0.677265 19.0214 0.670312 14.106V14.1054V1.59448V1.19448H1.07031H3.06914H3.46914V1.59448V14.1051C3.47558 17.4771 6.20558 20.207 9.57769 20.2132H19.9601L13.5906 13.8437L13.3078 13.5609L13.5906 13.278L15.005 11.8636L15.288 11.5807L15.5708 11.8637L25.0337 21.3332L25.3164 21.6161L25.0336 21.8988L15.5707 31.3617L15.2879 31.6445L15.005 31.3617L13.5906 29.9472L13.3078 29.6644L13.5906 29.3816L19.9601 23.0121L9.57695 23.0121Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.8"></path>
+                    </svg>  
+                    Get In Touch
+                </h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-content wow animate__animated animate__fadeInUp">
+                            <p class="text">
+                                Let's collaborate on your next project! With expertise in UI/UX design, frontend development, and digital marketing, I'm ready to bring your vision to life with creative and effective solutions.
+                            </p>
+                            <ul>
+                                <li>
+                                    <a href="tel:+917789995028">Phone: +91 7789995028</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:raulodipankar@gmail.com">Email: raulodipankar@gmail.com</a>
+                                </li>
+                                <li>
+                                    <a href="https://linkedin.com/in/dipankarraulo" target="_blank">LinkedIn: dipankarraulo</a>
+                                </li>
+                                <li>
+                                    <a href="https://deepixel-chi.vercel.app" target="_blank">Portfolio: deepixel-chi.vercel.app</a>
+                                </li>
+                                <li>
+                                    <a href="#">Address: Berhampur, Odisha, India - 761045</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow animate__animated animate__fadeInUp">
+                        <form action="contact-form.php" method="post" class="contact-form">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <input type="text" placeholder="Name" name="client__name">
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" placeholder="E-Mail" name="client_email">
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="contact__message" id="message" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn-primary-gradient">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="google-map wow animate__animated animate__slideInUp" data-wow-delay=".5s">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238885.0!2d84.7916!3d19.3149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3d4f0f5f0f0f0f%3A0x0!2sBerhampur%2C%20Odisha!5e0!3m2!1sen!2sin!4v1234567890" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="contact-bg"></div>
+            <div class="contact-shape">
+                <img src="assets/img/contact/shape.png" height="130" width="1400" alt="background shape image">
+            </div>
+        </div>
+    </main>
+
+    <svg class="position-absolute" style="width: 0; height:0;">
+        <clipPath id="testimonialShape" clipPathUnits="objectBoundingBox">
+            <path d="M0.545,0.004 C0.661,0.024,0.79,0.135,0.873,0.267 C0.955,0.399,1,0.551,0.996,0.682 C0.955,0.867,0.847,0.765,0.743,0.853 C0.639,0.94,0.57,0.99,0.453,0.995 C0.335,1,0.155,1,0.087,0.909 C0.018,0.796,-0.015,0.69,0.007,0.533 C0.03,0.377,0.12,0.265,0.21,0.159 C0.301,0.052,0.429,-0.017,0.545,0.004"></path>
+        </clipPath>
+    </svg>
+    <svg class="position-absolute" style="width: 0; height:0">
+        <linearGradient id="paintLight" x1="45.6518" y1="0.675537" x2="45.6518" y2="48.9633" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" stop-opacity="0.2"></stop>
+            <stop offset="1" stop-color="#9772E0" stop-opacity="0.4"></stop>
+        </linearGradient>
+        <linearGradient id="paintDark" x1="12.9252" y1="0.675537" x2="12.9252" y2="48.9633" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0B0020" stop-opacity="0"></stop>
+            <stop offset="1" stop-color="#5E27CA" stop-opacity="1"></stop>
+        </linearGradient>
+    </svg>
+    <svg class="position-absolute" style="width: 0; height:0"> 
+        <linearGradient id="paint1006" x1="12.2031" y1="0.242187" x2="12.2031" y2="21.2422" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6029CB"></stop>
+            <stop offset="1" stop-color="#E5D9FE"></stop>
+        </linearGradient>
+    </svg>        
+
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/circle-progress.min.js"></script>
+    <script src="assets/js/lazysizes.min.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/packery-mode.pkgd.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+    <script>
+        const Moving = document.getElementById("moving");
+        document.onmousemove = ev => {
+            const positionX = (window.innerWidth / -90 - ev.x) / -70;
+            const positionY = -ev.y / 20;
+            Moving.style.transform = `translate(${positionX}px, ${positionY}px)`;
+        };
+    </script>
+</body>
+</html>
